@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin:  0;
+}
+
+body{
+    font-family: "Rajdhani",sans-serif
+}
+
+.contenedor{
+    background: tomato;
+    width: 80%;
+    margin: auto;
+}
+
+
+header{
+    height: 400px;
+    background-image: url("atardecer.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    background: white;
+    padding: 20px 30px;
+}
+
+main .foto{
+    width: 150px;
+    height: 150px;
+    background: gray;
+    background-color : teal;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 10px; solid: #264653;
+
+}
+
+main .foto img{
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+footer{
+    background: teal;
+    text-align: center;
+    padding: 15px;
+    color: #ffffff;
+}
+.btn-1 {
+    display: block;
+    padding: 15px 10px;
+    background: rgb(121,190,190);
+    font-size: 17px;
+    border-radius: 3px;
+    text-transform: capitalize ;
+    text-align:center;
+    margin: 0% auto;
+    width: 20%;
+    text-decoration:none;
+}
